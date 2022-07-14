@@ -1,7 +1,7 @@
 local http = require "resty.http"
 local cjson = require "cjson"
-local template = require "plugins.crowdsec.template"
-local utils = require "plugins.crowdsec.utils"
+local template = require "kong.plugins.crowdsec-bouncer.libs.template"
+local utils = require "kong.plugins.crowdsec-bouncer.libs.utils"
 
 
 local M = {_TYPE='module', _NAME='recaptcha.funcs', _VERSION='1.0-0'}

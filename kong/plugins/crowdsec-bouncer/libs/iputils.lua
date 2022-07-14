@@ -2,7 +2,7 @@
 -- https://github.com/libmoon/libmoon/blob/master/lua/utils.lua
 
 local _M = {}
-local bit = require 'plugins.crowdsec.bitop'
+local bit = require 'kong.plugins.crowdsec-bouncer.libs.bitop'
 local bor, band, rshift, lshift, bswap = bit.bor, bit.band, bit.rshift, bit.lshift, bit.bswap
 
 --- Byte swap for 16 bit integers

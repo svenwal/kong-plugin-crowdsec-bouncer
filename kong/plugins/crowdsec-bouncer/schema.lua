@@ -21,7 +21,7 @@ local schema = {
               }},
           { bouncing_on_type = {
               type = "string",
-              default = "all"
+              default = "all",
               required = true,
               }},
           { fallback_remediation = {

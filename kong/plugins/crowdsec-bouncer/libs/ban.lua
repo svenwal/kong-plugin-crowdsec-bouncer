@@ -1,4 +1,4 @@
-local utils = require "plugins.crowdsec.utils"
+local utils = require "kong.plugins.crowdsec-bouncer.libs.utils"
 
 
 local M = {_TYPE='module', _NAME='ban.funcs', _VERSION='1.0-0'}
